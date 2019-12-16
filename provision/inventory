@@ -1,0 +1,21 @@
+[local]
+127.0.0.1
+
+[lab]
+lab00
+lab01
+lab02
+lab03
+lab04
+
+[jenkins_server]
+jenkins.local ansible_ssh_host=192.168.56.30 ansible_ssh_port=22
+
+[nexus_server]
+nexus.local ansible_ssh_host=192.168.56.41 ansible_ssh_port=22
+
+[sonar_server]
+sonar.local ansible_ssh_host=192.168.56.40 ansible_ssh_port=22
+
+[app_server]
+app.local ansible_ssh_host=192.168.56.50 ansible_ssh_port=22
